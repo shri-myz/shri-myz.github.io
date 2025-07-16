@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<head>
+    <title>shriram + maya 2025</title>
+</head>
+<body>
+
+  <div class="static">
+    <div class="left-angel">
+      <img src="img/etc/angel1.png" width="100%">
+    </div>
+    <!--h1 class="main-words">shriram + maya 2025 </h1-->
+    <div class="bigthing static-element">  
+      <img src="img/etc/main.png" width="600px" height="600px"></img>
+    </div>
+    <div class="details static-element">
+      <img src="img/etc/angel2.png" width="200px">
+      <p>We're very happy to share that we're going to get <a href="https://www.legisquebec.gouv.qc.ca/en/document/cr/ccq,%20r.%203" target="_blank">married</a>!</p>
+      <p>We'd love for you to join us on <b>Saturday, August 30, at 7 pm</b>, to celebrate at 
+        <span class="popup-link">Nora and Pedro's house</span> with close community in Montreal.</p>
+      <p>Wear something special! There will be food and drinks and cake and dancing.</p>
+      <img src="img/etc/lamp.png">
+    </div>
+    <div id="popupOverlay" class="popup-overlay">
+      <img src="img/etc/popup.png" alt="Popup" class="popup-image">
+    </div>
+  </div>
+
+  <script>
+    // Make details element clickable
+    document.querySelector('.popup-link').addEventListener('click', function() {
+      document.getElementById('popupOverlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+    
+    // Close popup by clicking on overlay or pressing Escape
+    document.getElementById('popupOverlay').addEventListener('click', function(e) {
+      if (e.target === this) {
+        this.classList.remove('active');
+        document.body.style.overflow = 'auto'; // Restore scrolling
+      }
+    });
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            document.getElementById('popupOverlay').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+    });
+  </script>
+
+  <div class="photos">
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/fresh.webp" 
+         data-src="img/fresh.webp"
+         loading="lazy"
+         style="width: 277px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/2for1.webp" 
+         data-src="img/2for1.webp"
+         loading="lazy"
+         style="width: 333px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/waverly.webp" 
+         data-src="img/waverly.webp"
+         loading="lazy"
+         style="width: 435px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/bridge.webp" 
+         data-src="img/bridge.webp"
+         loading="lazy"
+         style="width: 309px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/costume.webp" 
+         data-src="img/costume.webp"
+         loading="lazy"
+         style="width: 316px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/ct-crl.webp" 
+         data-src="img/ct-crl.webp"
+         loading="lazy"
+         style="width: 370px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/cupcakes.webp" 
+         data-src="img/cupcakes.webp"
+         loading="lazy"
+         style="width: 259px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/ferlucci.webp" 
+         data-src="img/ferlucci.webp"
+         loading="lazy"
+         style="width: 335px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/firstpic.webp" 
+         data-src="img/firstpic.webp"
+         loading="lazy"
+         style="width: 304px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/foxy.webp" 
+         data-src="img/foxy.webp"
+         loading="lazy"
+         style="width: 280px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/fridge.webp" 
+         data-src="img/fridge.webp"
+         loading="lazy"
+         style="width: 310px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/gnome.webp" 
+         data-src="img/gnome.webp"
+         loading="lazy"
+         style="width: 286px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/gothic.webp" 
+         data-src="img/gothic.webp"
+         loading="lazy"
+         style="width: 284px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/hardlaunch.webp" 
+         data-src="img/hardlaunch.webp"
+         loading="lazy"
+         style="width: 283px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/karma.webp" 
+         data-src="img/karma.webp"
+         loading="lazy"
+         style="width: 400px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/kf-aj.jpg" 
+         data-src="img/kf-aj.jpg"
+         loading="lazy"
+         style="width: 267px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/kooky.webp" 
+         data-src="img/kooky.webp"
+         loading="lazy"
+         style="width: 314px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/masks.webp" 
+         data-src="img/masks.webp"
+         loading="lazy"
+         style="width: 289px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/newdigs.webp" 
+         data-src="img/newdigs.webp"
+         loading="lazy"
+         style="width: 336px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/papps.webp" 
+         data-src="img/papps.webp"
+         loading="lazy"
+         style="width: 372px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/pat.webp" 
+         data-src="img/pat.webp"
+         loading="lazy"
+         style="width: 258px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/polaroid.webp" 
+         data-src="img/polaroid.webp"
+         loading="lazy"
+         style="width: 469px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/pumpkin.webp" 
+         data-src="img/pumpkin.webp"
+         loading="lazy"
+         style="width: 413px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/purr.webp" 
+         data-src="img/purr.webp"
+         loading="lazy"
+         style="width: 320px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/raining.webp" 
+         data-src="img/raining.webp"
+         loading="lazy"
+         style="width: 299px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/rooftop.webp" 
+         data-src="img/rooftop.webp"
+         loading="lazy"
+         style="width: 341px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/safety.webp" 
+         data-src="img/safety.webp"
+         loading="lazy"
+         style="width: 289px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/yz-wedding.webp" 
+         data-src="img/yz-wedding.webp"
+         loading="lazy"
+         style="width: 333px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/singaporestairs.webp" 
+         data-src="img/singaporestairs.webp"
+         loading="lazy"
+         style="width: 284px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/skidoo.webp" 
+         data-src="img/skidoo.webp"
+         loading="lazy"
+         style="width: 385px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/sleepy.webp" 
+         data-src="img/sleepy.webp"
+         loading="lazy"
+         style="width: 259px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/temple.webp" 
+         data-src="img/temple.webp"
+         loading="lazy"
+         style="width: 291px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/vintage.webp" 
+         data-src="img/vintage.webp"
+         loading="lazy"
+         style="width: 291px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/vrajans.webp" 
+         data-src="img/vrajans.webp"
+         loading="lazy"
+         style="width: 369px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/bday.webp" 
+         data-src="img/bday.webp"
+         loading="lazy"
+         style="width: 266px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/wedding.webp" 
+         data-src="img/wedding.webp"
+         loading="lazy"
+         style="width: 293px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/wetshirt.webp" 
+         data-src="img/wetshirt.webp"
+         loading="lazy"
+         style="width: 291px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/wisdom.webp" 
+         data-src="img/wisdom.webp"
+         loading="lazy"
+         style="width: 323px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="photo-item">
+    <img src="img/zoomer.webp" 
+         data-src="img/zoomer.webp"
+         loading="lazy"
+         style="width: 320px;" 
+         alt=""
+         class="lz-image">
+  </div>
+  </div>
+
+  <script>
+    // Enhanced lazy loading with Intersection Observer
+    document.addEventListener('DOMContentLoaded', function() {
+      const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            const src = img.getAttribute('data-src');
+            
+            if (src) {
+              img.src = src;
+              img.classList.add('loaded');
+              observer.unobserve(img);
+            }
+          }
+        });
+      }, {
+        // Start loading images when they're 100px away from viewport
+        rootMargin: '100px 0px',
+        threshold: 0.01
+      });
+
+      // Observe all lazy images
+      document.querySelectorAll('.lz-image').forEach(img => {
+        imageObserver.observe(img);
+      });
+    });
+  </script>
+</body>
